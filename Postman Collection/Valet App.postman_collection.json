@@ -1,0 +1,489 @@
+{
+	"info": {
+		"_postman_id": "9b576152-8612-4dee-8e9f-fd842cae3a41",
+		"name": "Valet App",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Fetch",
+			"item": [
+				{
+					"name": "localhost:3000/api/account/fetchByuser",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "authorization",
+								"value": "token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0aW1lIjoiV2VkIE1heSAzMSAyMDIzIDIzOjExOjA3IEdNVCswNTMwIChJbmRpYSBTdGFuZGFyZCBUaW1lKSIsImVtYWlsIjoic2hvYmhpdDJhY2NvdW50QHBlc3RvLmNvbSIsInVzZXJJZCI6IjY0NmI1MzljNWM5NzAwNzNkNWE3OTMzNSIsImlhdCI6MTY4NTU1NDg2NywiZXhwIjoxNjg1NTU4NDY3fQ.HZoksKBOYWC9RUpJVwt6C0M77LLjX2Ei31Iy4Fpads8",
+								"type": "default"
+							}
+						],
+						"url": {
+							"raw": "localhost:3000/api/account/fetchByuser",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"account",
+								"fetchByuser"
+							],
+							"query": [
+								{
+									"key": "",
+									"value": null,
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "localhost:3000/api/category/fetchByuser",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "authorization",
+								"value": "token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0aW1lIjoiV2VkIE1heSAzMSAyMDIzIDIzOjExOjA3IEdNVCswNTMwIChJbmRpYSBTdGFuZGFyZCBUaW1lKSIsImVtYWlsIjoic2hvYmhpdDJhY2NvdW50QHBlc3RvLmNvbSIsInVzZXJJZCI6IjY0NmI1MzljNWM5NzAwNzNkNWE3OTMzNSIsImlhdCI6MTY4NTU1NDg2NywiZXhwIjoxNjg1NTU4NDY3fQ.HZoksKBOYWC9RUpJVwt6C0M77LLjX2Ei31Iy4Fpads8",
+								"type": "default"
+							}
+						],
+						"url": {
+							"raw": "localhost:3000/api/category/fetchByuser",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"category",
+								"fetchByuser"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "localhost:3000/api/goal/fetchByuser",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "authorization",
+								"value": "token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0aW1lIjoiV2VkIE1heSAzMSAyMDIzIDIzOjExOjA3IEdNVCswNTMwIChJbmRpYSBTdGFuZGFyZCBUaW1lKSIsImVtYWlsIjoic2hvYmhpdDJhY2NvdW50QHBlc3RvLmNvbSIsInVzZXJJZCI6IjY0NmI1MzljNWM5NzAwNzNkNWE3OTMzNSIsImlhdCI6MTY4NTU1NDg2NywiZXhwIjoxNjg1NTU4NDY3fQ.HZoksKBOYWC9RUpJVwt6C0M77LLjX2Ei31Iy4Fpads8",
+								"type": "default"
+							}
+						],
+						"url": {
+							"raw": "localhost:3000/api/goal/fetchByuser",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"goal",
+								"fetchByuser"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "localhost:3000/api/transaction/fetchByuser",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "authorization",
+								"value": "token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0aW1lIjoiVHVlIE1heSAzMCAyMDIzIDEwOjE2OjU3IEdNVCswNTMwIChJbmRpYSBTdGFuZGFyZCBUaW1lKSIsImVtYWlsIjoic2hvYmhpdDJhY2NvdW50QHBlc3RvLmNvbSIsInVzZXJJZCI6IjY0NmI1MzljNWM5NzAwNzNkNWE3OTMzNSIsImlhdCI6MTY4NTQyMjAxNywiZXhwIjoxNjg1NDI1NjE3fQ.d3ChjCvkmP_M8pxH0X-R4q48o0WH8oExYqFCw1egVg8",
+								"type": "default"
+							}
+						],
+						"url": {
+							"raw": "localhost:3000/api/transaction/fetchByuser",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"transaction",
+								"fetchByuser"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Insert",
+			"item": [
+				{
+					"name": "localhost:3000/api/account/add",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "authorization",
+								"value": "token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0aW1lIjoiTW9uIE1heSAyOSAyMDIzIDIxOjQzOjA4IEdNVCswNTMwIChJbmRpYSBTdGFuZGFyZCBUaW1lKSIsImVtYWlsIjoic2hvYmhpdDJhY2NvdW50QHBlc3RvLmNvbSIsInVzZXJJZCI6IjY0NmI1MzljNWM5NzAwNzNkNWE3OTMzNSIsImlhdCI6MTY4NTM3Njc4OCwiZXhwIjoxNjg1MzgwMzg4fQ.vNldA0C_qcSR0YxwJbwtaYpmqTmyW89oqr3aQblS3Yg",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"accountName\": \"Account 2\",\r\n    \"accountDesc\": \"Account for testing of admin\",\r\n    \"accountBalance\": \"1000\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3000/api/account/add",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"account",
+								"add"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "localhost:3000/api/goal/add",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "authorization",
+								"value": "token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0aW1lIjoiV2VkIE1heSAzMSAyMDIzIDIzOjExOjA3IEdNVCswNTMwIChJbmRpYSBTdGFuZGFyZCBUaW1lKSIsImVtYWlsIjoic2hvYmhpdDJhY2NvdW50QHBlc3RvLmNvbSIsInVzZXJJZCI6IjY0NmI1MzljNWM5NzAwNzNkNWE3OTMzNSIsImlhdCI6MTY4NTU1NDg2NywiZXhwIjoxNjg1NTU4NDY3fQ.HZoksKBOYWC9RUpJVwt6C0M77LLjX2Ei31Iy4Fpads8",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"goalName\": \"Goal 2\",\r\n    \"goalDesc\": \"Goal for testing of admin\",\r\n    \"categoryId\": \"6474d8f14c664ee574fadeba\",\r\n    \"goalAmount\": \"1000\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3000/api/goal/add",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"goal",
+								"add"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "localhost:3000/api/category/add",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "authorization",
+								"value": "token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0aW1lIjoiTW9uIE1heSAyOSAyMDIzIDIxOjQzOjA4IEdNVCswNTMwIChJbmRpYSBTdGFuZGFyZCBUaW1lKSIsImVtYWlsIjoic2hvYmhpdDJhY2NvdW50QHBlc3RvLmNvbSIsInVzZXJJZCI6IjY0NmI1MzljNWM5NzAwNzNkNWE3OTMzNSIsImlhdCI6MTY4NTM3Njc4OCwiZXhwIjoxNjg1MzgwMzg4fQ.vNldA0C_qcSR0YxwJbwtaYpmqTmyW89oqr3aQblS3Yg",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"categoryName\": \"category 1\",\r\n    \"categoryDesc\": \"abc\",\r\n    \"accountID\": \"6474d543ead199088676b51e\",\r\n    \"categoryType\": \"Expence\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3000/api/category/add",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"category",
+								"add"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "localhost:3000/api/transaction/add",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "authorization",
+								"value": "token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0aW1lIjoiV2VkIE1heSAzMSAyMDIzIDIzOjExOjA3IEdNVCswNTMwIChJbmRpYSBTdGFuZGFyZCBUaW1lKSIsImVtYWlsIjoic2hvYmhpdDJhY2NvdW50QHBlc3RvLmNvbSIsInVzZXJJZCI6IjY0NmI1MzljNWM5NzAwNzNkNWE3OTMzNSIsImlhdCI6MTY4NTU1NDg2NywiZXhwIjoxNjg1NTU4NDY3fQ.HZoksKBOYWC9RUpJVwt6C0M77LLjX2Ei31Iy4Fpads8",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"transactionName\": \"transactionName 3\",\r\n    \"transactionDesc\": \"transactionDesc for testing of admin\",\r\n    \"categoryOrGoal\": \"Goal\",\r\n    \"transactiontypeId\": \"64778a51d2e1eae699a9bc6d\",\r\n    \"transactionAmount\": \"1000\",\r\n    \"timeStamp\": \"12/08/12\",\r\n    \"transactiontype\": \"Expense\",\r\n    \"goalAmount\": \"1000\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3000/api/transaction/add",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"transaction",
+								"add"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Update",
+			"item": [
+				{
+					"name": "localhost:3000/api/category/updateBudget",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "authorization",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0aW1lIjoiV2VkIE1heSAyNCAyMDIzIDEzOjA3OjAxIEdNVCswNTMwIChJbmRpYSBTdGFuZGFyZCBUaW1lKSIsImVtYWlsIjoic2hvYmhpdEBwZXN0by5jb20iLCJ1c2VySWQiOiI2NDYxZDYwZDE0ODM3OTBjMmJlOGIxOWEiLCJpYXQiOjE2ODQ5MTM4MjEsImV4cCI6MTY4NDkxNzQyMX0.uHQEixt4EaPUXnX-IyWTzLtcMCzawAc88sEbM1V7SdU",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"budget\": [\r\n        [\"6466fabc4c5035d17b98e47e\",\"1020\"],\r\n        [\"6466fad54c5035d17b98e481\",\"233\"]\r\n    ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3000/api/category/updateBudget",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"category",
+								"updateBudget"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "User Auth",
+			"item": [
+				{
+					"name": "localhost:3000/api/login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"password\": \"abc\",\r\n    \"email\": \"shobhit2account@pesto.com\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3000/api/login",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "localhost:3000/api/signup",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"userName\": \"Shobhit9935\",\r\n    \"password\": \"abc\",\r\n    \"email\": \"shobhit@pesto.com\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3000/api/signup",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"signup"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "localhost:3000/api/forgetpassword",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"password\": \"abc\",\r\n    \"email\": \"shobhit@pesto.com\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3000/api/forgetpassword",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"forgetpassword"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Fetch aggregate",
+			"item": [
+				{
+					"name": "category/fetchByExpensebyCategory",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "authorization",
+								"value": "token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0aW1lIjoiV2VkIE1heSAzMSAyMDIzIDIzOjExOjA3IEdNVCswNTMwIChJbmRpYSBTdGFuZGFyZCBUaW1lKSIsImVtYWlsIjoic2hvYmhpdDJhY2NvdW50QHBlc3RvLmNvbSIsInVzZXJJZCI6IjY0NmI1MzljNWM5NzAwNzNkNWE3OTMzNSIsImlhdCI6MTY4NTU1NDg2NywiZXhwIjoxNjg1NTU4NDY3fQ.HZoksKBOYWC9RUpJVwt6C0M77LLjX2Ei31Iy4Fpads8",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3000/api/category/fetchByExpensebyCategory",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"category",
+								"fetchByExpensebyCategory"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "category/fetchByExpensebyGoal",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "authorization",
+								"value": "token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0aW1lIjoiV2VkIE1heSAzMSAyMDIzIDIzOjExOjA3IEdNVCswNTMwIChJbmRpYSBTdGFuZGFyZCBUaW1lKSIsImVtYWlsIjoic2hvYmhpdDJhY2NvdW50QHBlc3RvLmNvbSIsInVzZXJJZCI6IjY0NmI1MzljNWM5NzAwNzNkNWE3OTMzNSIsImlhdCI6MTY4NTU1NDg2NywiZXhwIjoxNjg1NTU4NDY3fQ.HZoksKBOYWC9RUpJVwt6C0M77LLjX2Ei31Iy4Fpads8",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3000/api/category/fetchByExpensebyGoal",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"category",
+								"fetchByExpensebyGoal"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
